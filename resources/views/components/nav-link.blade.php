@@ -1,0 +1,2 @@
+{{-- LINK BIASA --}}
+<a {{ $attributes }} class="{{$active ? 'text-[var(--text-primary)] lg:text-gray-100' : 'text-[var(--text-primary)] lg:text-white'}} w-full lg:w-auto  flex items-center hover:text-gray-100 hover:bg-gray-900 active:text-gray-100 active:bg-gray-900 md:hover:bg-gray-900 lg:hover:text-white px-8 py-7 text-sm font-normal lg:transition md:duration-200" aria-current="{{ $active ? 'page' : false }}">{{ $slot }}</a>

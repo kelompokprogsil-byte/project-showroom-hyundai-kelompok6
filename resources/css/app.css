@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Paperlogy;
+  src: url(../fonts/Paperlogy-3Light.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Paperlogy;
+  src: url(../fonts/Paperlogy-4Regular.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Paperlogy;
+  src: url(../fonts/Paperlogy-5Medium.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Paperlogy;
+  src: url(../fonts/Paperlogy-6SemiBold.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Paperlogy;
+  src: url(../fonts/Paperlogy-7Bold.ttf) format(truetype);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@import 'tailwindcss';
+@import 'flowbite';
+@plugin "daisyui";
+
+@layer components {
+  @media (min-width: 768px) {
+    #default-sidebar {
+      transform: translateX(0) !important;
+      visibility: visible !important;
+    }
+  }
+
+  /* === CUSTOM REUSABLE CLASSES === */
+  .content-section {
+    @apply px-4 md:px-16 lg:px-20;
+  }
+}
+
+@layer base {
+  :root {
+    --font-paperlogy: 'Paperlogy', "sans-serif";
+
+    --bg-primary: #0A142F;
+    --bg-secondary: #003082;
+
+    --txt-secondary: #003082;
+  }
+  html {
+    font-family: var(--font-paperlogy);
+  }
+}
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
