@@ -1,5 +1,5 @@
 ## PEMBUKAAN
-Halo kelompok 6, ini Project Showroom-Hyundai mata pelajran Pemweb2.
+Halo kelompok 6, ini Project Showroom-Hyundai mata pelajran Pemweb2. <br>
 Repo ini berisi file-file project 
 
 ### Untuk mengedit source code:
@@ -7,11 +7,11 @@ Repo ini berisi file-file project
 2. Install npm -> npm install
 
 ### Untuk Running:
-npm run dev
+npm run dev <br>
 php artisan serve
 
 ### Untuk duplikat env (untuk configure database)
-cp .env.example .env
+cp .env.example .env <br>
 php artisan key:generate
 
 
