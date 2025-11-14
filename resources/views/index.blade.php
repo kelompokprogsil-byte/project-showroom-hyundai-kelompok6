@@ -19,6 +19,7 @@
     </div>
   </section>
 
+
   {{-- === CARD === --}}
   <section class="px-6 md:px-12 lg:px-20 py-8 mt-12 bg-white">
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -120,7 +121,7 @@
             <a href="/product" class="group rounded-2xl relative shadow-md hover:shadow-xl active:shadow-xl transition duration-300 overflow-hidden items-center justify-center">
               <img src="img/image_darrel/browse-type/type-performance.svg" alt="Electrified" class="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105 group-active:scale-105 rounded-2xl">
               <div class="absolute inset-0 flex flex-col justify-end mb-10 md:mb-0 ms-8 md:ms-0 sm:justify-center z-10 text-left text-white">
-                <h3 class="text-2xl font-bold">SUVs</h3>
+                <h3 class="text-2xl font-bold">Performance</h3>
                 <p class="text-sm font-medium opacity-90">Hyundai High-Performance Sedan</p>
                 <p class="text-sm opacity-80">Mobil  Sedan Elegan dengan Performa Tinggi</p>
               </div>

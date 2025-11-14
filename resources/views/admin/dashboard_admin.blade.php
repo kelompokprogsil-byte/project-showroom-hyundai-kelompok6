@@ -16,7 +16,7 @@
 <body>
     <x-sidebar-admin></x-sidebar-admin>
 
-    <div class="p-4 sm:ml-64 mt-18 sm:mt-0 mb-12">
+    <div class="p-4 sm:ml-64 mt-18 sm:mt-8 mb-12">
     <div class="p-4">
         <div class="flex te mb-8 rounded-sm  dark:bg-gray-800">
             <h1 class="text-3xl font-bold">Dashboard Admin</h1>

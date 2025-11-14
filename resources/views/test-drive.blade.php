@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <title>Test Drive Form</title>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- container -->
+    <div class="max-w-7xl mx-auto pl-6 pr-8 pt-8"> 
+    <!-- Tombol Back -->
+    <a href="/katalog" id="prevBtn"
+      class="flex items-center mb-4">
+      <img src="img/Form/weui_back-filled.png" class="h-8 w-auto mr-2" alt="Prev">
+    </a>
+
+    <!-- Title -->
+    <h1 class="text-3xl font-bold mb-2">Test Drive Form</h1>
+    <h2 class="text-lg text-gray-500 mb-6">Product Overview To Be Test</h2>
+
+    <!-- main grid: left card + right image -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+
+      <!-- LEFT: Card spanning two columns -->
+      <div class="md:col-span-2">
+        <div class="bg-white shadow-md rounded-lg p-8 relative overflow-visible">
+          <!-- thin vertical decorative line inside card -->
+          <div class="absolute left-8 top-6 bottom-6 w-px bg-gray-100 rounded"></div>
+
+          <div class="pl-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 text-sm text-gray-800">
+              <div class="space-y-4">
+                <p><span class="font-medium">Name:</span> <span class="text-gray-700">2025 TUCSON SE</span></p>
+                <p><span class="font-medium">Type:</span> <span class="text-gray-700">SUV</span></p>
+                <p><span class="font-medium">Model:</span> <span class="text-gray-700">TUCSON SE 2025</span></p>
+                <p><span class="font-medium">Variant:</span> <span class="text-gray-700">TUCSON SE</span></p>
+                <p><span class="font-medium">Production Year:</span> <span class="text-gray-700">2025</span></p>
+                <p><span class="font-medium">Transmission:</span> <span class="text-gray-700">Automatic CVT</span></p>
+                <p><span class="font-medium">Engine Capacity:</span> <span class="text-gray-700">1498 cc</span></p>
+              </div>
+
+              <div class="space-y-4">
+                <p><span class="font-medium">Power:</span> <span class="text-gray-700">176 HP</span></p>
+                <p><span class="font-medium">Seats:</span> <span class="text-gray-700">5</span></p>
+                <p class="flex items-center"><span class="font-medium">Color:</span>
+                  <span class="text-gray-700 ml-2">White</span>
+                  <span class="ml-3 inline-block w-3 h-3 border border-gray-300 rounded-sm"></span>
+                </p>
+                <p><span class="font-medium">Features:</span> <span class="text-gray-700">Keyless entry, Sensing, 6 Airbags</span></p>
+
+                <div>
+                  <p class="font-medium">Description:</p>
+                  <p class="text-gray-700 text-sm leading-relaxed mt-1">
+                    Sedan sport premium dengan mesin 1.5L turbo dan fitur keselamatan canggih.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Car image -->
+      <div class="flex justify-center md:justify-end items-start">
+        <img src="img/company/carct3.png" alt="Hyundai Tucson 2025" class="w-72 md:w-80 lg:w-96 object-contain">
+      </div>
+
+    </div>
+
+    <!-- form section kept below -->
+    <section class="mt-12 mb-16">
+      <h3 class="text-xl text-[#001E3C] font-semibold mb-4">Form</h3>
+      <form class="space-y-6 text-sm max-w-4xl">
+        <div>
+          <label class="block mb-1 font-medium text-gray-700">Name</label>
+          <input type="text" placeholder="Input Name..." class="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#001E3C] focus:outline-none">
+        </div>
+        <div>
+          <label class="block mb-1 font-medium text-gray-700">Dealer</label>
+          <select class="w-full border border-gray-300 rounded-md p-2 bg-white focus:ring-2 focus:ring-[#001E3C] focus:outline-none">
+            <option>Dealer</option>
+            <option>Jakarta Hyundai</option>
+            <option>Surabaya Hyundai</option>
+            <option>Bandung Hyundai</option>
+          </select>
+        </div>
+        <div>
+          <label class="block mb-1 font-medium text-gray-700">Meeting Date</label>
+          <input type="date" class="w-full border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-[#001E3C] focus:outline-none">
+        </div>
+
+        <div class="space-y-2">
+          <label class="flex items-center text-gray-600"><input type="checkbox" class="mr-2 rounded border-gray-300 focus:ring-[#001E3C] hover:cursor-pointer">New comments so you always know what’s happening.</label>
+          <label class="flex items-center text-gray-600"><input type="checkbox" class="mr-2 rounded border-gray-300 focus:ring-[#001E3C] hover:cursor-pointer">New candidates who apply for any open postings.</label>
+        </div>
+
+        <button type="submit" class="text-white bg-[var(--bg-secondary)] border-2 border-white hover:text-[var(--bg-secondary)] hover:bg-transparent hover:border-gray-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:cursor-pointer transition">Kirim</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- === FOOTER === -->
+  <footer class="bg-[#0b1630] text-white py-5">
+    <div class="container mx-auto flex flex-col items-center justify-center space-y-3">
+      <div class="flex space-x-4 text-base">
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white transition">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="text-center text-gray-400 text-xs">
+        © 2023 Copyright:
+        <a href="#" class="hover:underline text-gray-300">MDBootstrap.com</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

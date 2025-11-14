@@ -14,16 +14,13 @@
                   <h2 class="mb-6 text-base font-bold text-white uppercase dark:text-white">Product</h2>
                   <ul class="text-gray-300 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <x-footer-link href="" >Vehicle</x-footer-link>
+                          <x-footer-link href="/product" >Spare Parts</x-footer-link>
                       </li>
                       <li class="mb-4">
-                          <x-footer-link href="" >Spare Parts</x-footer-link>
+                          <x-footer-link href="/product" >Accessories</x-footer-link>
                       </li>
                       <li class="mb-4">
-                          <x-footer-link href="" >Accessories</x-footer-link>
-                      </li>
-                      <li class="mb-4">
-                          <x-footer-link href="" >Reparation</x-footer-link>
+                          <x-footer-link href="/product" >Reparation</x-footer-link>
                       </li>
                   </ul>
               </div>
@@ -33,16 +30,16 @@
                   <h2 class="mb-6 text-base font-bold text-white uppercase dark:text-white">Personalization</h2>
                   <ul class="text-gray-300 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <x-footer-link href="" >About Company</x-footer-link>
+                          <x-footer-link href="/company_page" >About Company</x-footer-link>
                       </li>
                       <li class="mb-4">
-                          <x-footer-link href="" >Career</x-footer-link>
+                          <x-footer-link href="/career" >Career</x-footer-link>
                       </li>
                       <li class="mb-4">
-                          <x-footer-link href="" >Dealer</x-footer-link>
+                          <x-footer-link href="/dealer" >Dealer</x-footer-link>
                       </li>
                       <li class="mb-4">
-                          <x-footer-link href="" >Showroom Live</x-footer-link>
+                          <x-footer-link href="/showroom_live" >Showroom Live</x-footer-link>
                       </li>
                   </ul>
               </div>
@@ -55,13 +52,10 @@
                           <x-footer-link href="/warranty" >Warranty</x-footer-link>
                       </li>
                       <li class="mb-4">
-                          <x-footer-link href="" >Testimony</x-footer-link>
+                          <x-footer-link href="/testimony" >Testimony</x-footer-link>
                       </li>
                       <li class="mb-4">
-                          <x-footer-link href="" >Services</x-footer-link>
-                      </li>
-                      <li class="mb-4">
-                          <x-footer-link href="">Customer Service</x-footer-link>
+                          <x-footer-link href="/services" >Services</x-footer-link>
                       </li>
                   </ul>
               </div>
