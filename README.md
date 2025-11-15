@@ -9,7 +9,7 @@
 
 <h1>Halo! Selamat Datang! </h1>
 <h2>Project Showroom Hyundai Kelompok 6</h2>
-<p>Selamat Datang di Repository project showroom mobil Hyundai milik Kelompok 6, berikut arahan untuk mengunduhnya</p>
+<p>Selamat Datang di Repository project showroom mobil Hyundai milik Kelompok 6, berikut arahan untuk mengunduh dan mengeditnya 👇</p>
 
 <h2>Install Composer</h2>
 <p>Install Composer di https://getcomposer.org/download/</p>
