@@ -7,6 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+<h1>Halo! Selamat Datang! </h1>
+<h2>Project Showroom Hyundai Kelompok 6</h2>
+<p>Selamat Datang di Repository project showroom mobil Hyundai milik Kelompok 6, berikut arahan untuk mengunduhnya</p>
+
+<h2>Install Composer</h2>
+<p>Install Composer di https://getcomposer.org/download/</p>
+
+<h2>Push Git</h2>
+<h3>1. Menambahkan Link Remote</h3>
+<p>git remote add origin https://github.com/kelompokprogsil-byte/project-showroom-hyundai-kelompok6.git</p>
+<h3>2. Push </h3>
+<p>git push origin main</p>
+
+<p>Selamat Mengerjakan</p>
+<h4>#salamlestari🤙</h4>
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
